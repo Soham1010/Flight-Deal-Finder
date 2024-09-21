@@ -19,30 +19,3 @@ The user specifies their destination, budget, and travel preferences.
 Amadeus API is called to fetch real-time flight data for the desired route.
 The results are stored using the Sheety API for personalized tracking of flight deals over time.
 The tool outputs the best flight deals in an easy-to-read format (dictionary or list).
-🏗️ Setup Instructions
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/flight-deal-finder.git
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables in a .env file:
-
-plaintext
-Copy code
-SHEETY_TOKEN=your_sheety_token
-AMADEUS_API_KEY=your_amadeus_api_key
-AMADEUS_API_SECRET=your_amadeus_api_secret
-Run the script:
-
-bash
-Copy code
-python main.py
-🔍 Future Enhancements
-Add filtering options based on airline preferences, layovers, and travel dates.
-Implement a notification system to alert users when flight prices drop below a certain threshold.
-Integrate additional APIs for enhanced flight search capabilities.
